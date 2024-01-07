@@ -48,7 +48,7 @@ export default function Status(props){
                 </div>)}
                 </div>
                 </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 name">
             <h6><LuSignalLow/> Low <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                 <div className='row'>
                 {lowData==''?<></>:lowData.map(obj=><div className='col-lg-12 backlogBlock'>
@@ -58,7 +58,7 @@ export default function Status(props){
                 </div>)}
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 name">
             <h6><LuSignalMedium/> Medium <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                 <div className='row'>
                 {mediumData==''?<></>:mediumData.map(obj=><div className='col-lg-12 backlogBlock'>
@@ -69,7 +69,7 @@ export default function Status(props){
                 </div>
             
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 name">
             <h6><LuSignalHigh/> High <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                 <div className='row'>
                 {highData==''?<></>:highData.map(obj=><div className='col-lg-12 backlogBlock'>
@@ -79,7 +79,7 @@ export default function Status(props){
                 </div>)}
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 name">
             <h6><LuSignal/> Urgent <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                 <div className='row'>
                 {urgentData==''?<></>:urgentData.map(obj=><div className='col-lg-12 backlogBlock'>

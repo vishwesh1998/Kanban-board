@@ -22,7 +22,7 @@ export default function Status(props){
     return <section id='parent'>
             <div className="container-fluid status">
                 <div className="row" style={{justifyContent:'space-between'}}>
-                    {user==''?'':user.map(obj=><div className="col-lg-2">
+                    {user==''?'':user.map(obj=><div className="col-lg-2 name">
                         <h6><ImUserTie/> {obj.name} <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                         <div className='row'>
                             {card.filter(card=>card.userId==obj.id).map(obj=><div className='col-lg-12 backlogBlock '>
