@@ -61,7 +61,8 @@
   }
 
   .header{
-    width: 468px;
+    width: 375px;
+    background-color: aqua;
   }
 
 }
