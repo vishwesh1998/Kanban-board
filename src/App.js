@@ -34,7 +34,7 @@ export default function App() {
                     <div className="col-lg-3">
                         <button className="btn btn-sm btn-outline-dark" id="b" onClick={()=>setSlider(!slider)}><LuSettings2 /> Display <FaAngleDown /></button>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 n">
                         {night ? <div className="nightEffect" onClick={(e) => clickNight()}><MdBrightness7 /></div> : <div className="nightEffect" onClick={() => clickNight()}><MdNightlight /></div>}
                     </div>
                 </div>
