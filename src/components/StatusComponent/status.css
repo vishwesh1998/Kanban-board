@@ -1,0 +1,72 @@
+.backlogBlock{
+    border: 0.5px solid white;
+    border-radius: 10px;
+    height: 12rem;
+    width: 15rem;
+    /* display: flex; */
+    background: #183D3D;
+    color: white;
+    margin: 1rem 0px;
+    box-shadow: 5px 5px 20px;
+}
+
+.backlogBlock p{
+    font-size: 12px;
+    margin-top: 20px;
+    /* border-width: ; */
+}
+
+.backlogBlock b{
+    font-size: 14px;
+    /* margin-bottom: 30px; */
+}
+
+.status h6{
+    font-weight: 510;
+}
+
+#parent{
+    position: relative;
+}
+
+.dropBox{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background: white;
+    z-index: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* left: 100px; */
+    top: -25px;
+    left: -10px;
+    margin-bottom: 100px;
+    padding: 10px 30px;
+}
+
+.group select{
+    margin-left: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 3px;
+    }
+
+.group p{
+    font-size: 12x;
+    font-weight: 300;
+    margin-top: 3px;
+}
+
+
+.order p{
+    font-size: 12x;
+    font-weight: 300;
+    margin-top: 3px;
+}
+    
+.order select{
+    margin-left: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 3px;
+    }
