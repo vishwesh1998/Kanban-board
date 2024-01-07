@@ -1,5 +1,4 @@
 import { MdBrightness7 } from "react-icons/md";
-// g
 import { LuSettings2 } from "react-icons/lu";
 import { FaAngleDown } from "react-icons/fa";
 import { useState } from 'react'
