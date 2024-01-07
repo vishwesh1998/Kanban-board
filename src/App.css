@@ -62,18 +62,16 @@
 
   .header{
     width: 100%;
-    /* background-color: aqua; */
-  }
+    }
 
   .nightEffect{
-    /* font-size: 1px; */
-    /* background: #000; */
-    /* margin-right: 10px; */
     position: relative;
-    /* left: 10rem; */
-    /* top: 10rem; */
     right: 42rem;
     bottom: 1.5rem;
+  }
+
+  .mainBlock{
+    height: 100%;
   }
 
 }
