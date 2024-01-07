@@ -54,6 +54,18 @@
   /* border: 1px solid black; */
 }
 
+@media (max-width:468px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .header{
+    width: 468px;
+  }
+
+}
+
 .header button{
   border-radius: 10px;
   /* height: 10px; */
