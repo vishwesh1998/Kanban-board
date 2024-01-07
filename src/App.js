@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Status from './components/StatusComponent/status'
 import './App.css'
 import User from './components/UserComponent/user'
-import Priority from './components/PriorityComponent/priority'
+import Priority from './components/PriorityCOmponent/priority'
 import { MdNightlight } from "react-icons/md";
 
 export default function App() {
