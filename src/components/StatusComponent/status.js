@@ -45,7 +45,7 @@ export default function Status(){
                 </div>)}
                 </div>
                 </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 name">
             <h6><GoDot/> Todo <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                 <div className='row'>
                 {todolistData==''?<></>:todolistData.map(obj=><div className='col-lg-12 backlogBlock' id='t'>
@@ -55,7 +55,7 @@ export default function Status(){
                 </div>)}
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 name">
             <h6>🌞 In Progress <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                 <div className='row'>
                 {progData==''?<></>:progData.map(obj=><div className='col-lg-12 backlogBlock' id='p'>
@@ -66,7 +66,7 @@ export default function Status(){
                 </div>
             
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 name">
             <h6>🔰 Done <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                 <div className='row'>
                 {dneData==''?<></>:dneData.map(obj=><div className='col-lg-12 backlogBlock' id='d'>
@@ -76,7 +76,7 @@ export default function Status(){
                 </div>)}
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 name">
             <h6><FcCancel/> Cancelled <span style={{marginLeft:'14px'}}><FiPlus/>&nbsp;<BsThreeDots/></span></h6>
                 <div className='row'>
                 {cancelledData==''?<></>:cancelledData.map(obj=><div className='col-lg-12 backlogBlock' id='c'>
