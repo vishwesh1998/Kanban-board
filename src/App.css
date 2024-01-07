@@ -62,7 +62,7 @@
 
   .header{
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
 
   .nightEffect{
@@ -72,7 +72,7 @@
     position: relative;
     /* left: 10rem; */
     /* top: 10rem; */
-    right: 40rem;
+    right: 42rem;
     bottom: 1.5rem;
   }
 
